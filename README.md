@@ -1,5 +1,12 @@
-# todoList
-# toDoList
-# toDoList
-# todo-list
-# toDoList
+## Todo List
+  
+  #Front-end
+  - Reactjs
+  - Typescript
+  - SASS
+  - Mobx
+  
+  #Back-end
+  - Nestjs
+  - Typescript
+  
