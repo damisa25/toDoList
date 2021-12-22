@@ -1,0 +1,40 @@
+@import "../../index.scss";
+
+.blog {
+    .box-row1 {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .div-col2 {
+        text-align: end;
+    }
+
+    .blog-category {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: $primary;
+    }
+
+    .blog-name {
+        font-size: $fontTitle3;
+        color: rgb(141, 137, 137);
+        margin-bottom: 15px;
+    }
+
+    .btn-edit-delete {
+        &.edit {
+            background-color: #F0C05A;
+            border-color: #F0C05A;
+        }
+
+        &.delete {
+            background-color: #DD4124;
+            border-color: #DD4124;
+        }
+    }
+
+}

@@ -1,0 +1,45 @@
+@import "../../index.scss";
+
+.home {
+  .home-content {
+    height: 88vh;
+    padding: 25px;
+
+    @media screen and (min-width: 768px) {
+      right: 0;
+      position: fixed;
+      min-height: 100vh;
+      max-width: 568px;
+      overflow: scroll;
+    }
+
+    @media screen and (min-width: 992px) {
+
+      max-width: 824px;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+      max-width: 1230px;
+    }
+  }
+
+  .box-row {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .home-title {
+    font-size: $fontTitle2;
+    font-weight: bold;
+    color: $primary;
+  }
+
+  .div-btn-insert {
+    text-align: end;
+  }
+
+}
