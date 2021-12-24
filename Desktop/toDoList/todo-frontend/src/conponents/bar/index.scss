@@ -1,0 +1,117 @@
+@import "../../index.scss";
+
+.bar {
+  .box-bar-mobile {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    padding: 0 4vh;
+    background: linear-gradient(117.7deg, #5572e4 32.12%, #883fff 72.9%);
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  .logo {
+    font-size: 2.5rem;
+    color: whitesmoke;
+    font-weight: bold;
+
+    &.center {
+      text-align: center;
+    }
+  }
+
+  .icon-col {
+    text-align: end;
+  }
+
+  .icon-menu {
+    color: whitesmoke;
+    font-size: 2rem;
+    cursor: pointer;
+
+  }
+
+  .box-slider {
+    overflow: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    width: 300px;
+    background: linear-gradient(117.7deg, #5572e4 32.12%, #883fff 68.9%);
+
+    .ant-menu {
+      background: linear-gradient(117.7deg, #5572e4 60.12%, #883fff 98.9%);
+      color: whitesmoke;
+    }
+
+    .ant-menu-light .ant-menu-item:hover,
+    .ant-menu-light .ant-menu-item-active,
+    .ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+    .ant-menu-light .ant-menu-submenu-active,
+    .ant-menu-light .ant-menu-submenu-title:hover {
+      color: $secondary;
+    }
+
+    .ant-menu-item-selected {
+      color: $secondary;
+    }
+
+    .ant-menu-submenu-selected {
+      color: $secondary;
+    }
+
+    .ant-menu-submenu {
+      color: whitesmoke;
+    }
+
+    .ant-menu-submenu:hover>.ant-menu-submenu-title>.ant-menu-submenu-expand-icon,
+    .ant-menu-submenu:hover>.ant-menu-submenu-title>.ant-menu-submenu-arrow {
+      color: $secondary
+    }
+
+    .ant-menu-submenu-arrow {
+      color: whitesmoke;
+    }
+
+    .ant-menu-inline,
+    .ant-menu-vertical,
+    .ant-menu-vertical-left {
+      border-right: none;
+    }
+
+    @media screen and (min-width: 280px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 320px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 576px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+      display: inline;
+
+    }
+  }
+
+
+}
+
+.ant-drawer-body {
+  font-size: 1.2rem !important;
+  color: whitesmoke !important;
+  line-height: 2 !important;
+
+}
+
+.ant-drawer .ant-drawer-content {
+  background: linear-gradient(117.7deg, #5572e4 32.12%, #883fff 72.9%);
+
+}
